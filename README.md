@@ -1,192 +1,181 @@
-# Welcome
-# String len
+## Xush kelibsiz!
+---
 
-Automated grading of homework assignments and tests
-- fork this repository
-- solve the task
-- commit with proper message
-
-# Problems
 ## string_len01
 
-  A variable of type string is given. Find its length.
+Satr tipidagi o'zgaruvchi berilgan. Uning uzunligini toping.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: a="python"
 Output: 6
-
 ```
 
-**Constraints:**
+---
 
 ## string_len02
 
-  A string type variable is given. Return True if its length is even. Return False if its length is odd.
+Satr tipidagi o'zgaruvchi berilgan. Agar uning uzunligi juft bo'lsa, `True` qaytaring. Agar toq bo'lsa, `False` qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: a="code"
 Output: True
-
 ```
+
+---
 
 ## string_len03
 
-  String type variables a and b are given. Return True if the length is equal. If not equal, return False.
+Satr tipidagi o'zgaruvchilar `a` va `b` berilgan. Agar uzunliklari teng bo'lsa, `True`, aks holda `False` qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: a="code" b="exam"
 Output: True
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: a="code" b="python"
 Output: False
-
 ```
+
+---
 
 ## string_len04
 
-  A string variable s is given. Return the "*" sign that is equal to the length of this variable.
+Berilgan satr `s`. Satr uzunligiga teng bo'lgan `*` belgilaridan iborat satr qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: a="code"
 Output: "****"
-
 ```
+
+---
 
 ## string_len05
 
-  Given two strings, s1 and s2. Find their total length.
+Ikki satr `s1` va `s2` berilgan. Ularning umumiy uzunligini toping.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: s1="code" s2="python"
 Output: 10
-
 ```
+
+---
 
 ## string_len06
 
-  Given two strings, s1 and s2. Return the shortest length between them.
+Ikki satr `s1` va `s2` berilgan. Ularning eng qisqa uzunlikka ega bo'lganini qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: s1="code" s2="python"
 Output: "code"
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: s1="code" s2="exam"
 Output: "exam"
-
 ```
+
+---
 
 ## string_len07
 
-  Given three strings, s1, s2 and s3. return their odd lengths, example "[s1, s2]". If there is no odd length, return "[]".
+Uchta satr `s1`, `s2`, va `s3` berilgan. Ular orasida uzunligi toq bo'lganlarini qaytaring. Agar toq uzunlikdagi satrlar bo'lmasa, `"[]"` qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: s1="code" s2="python" s3="coder"
 Output: "[coder]"
-
 ```
-
-**Example 2:**
-
-```Python
-Input: s1="codeschool.uz" s2="example" s3="python"
-Output: "[codeschool.uz, example]"
-
-```
+---
 
 ## string_len08
 
-  Given variable type string s. Return the character in the muddle.
-  If the length is even, return two characters in the middle.
+Berilgan satr `s`. Agar uzunligi toq bo'lsa, o'rtadagi belgisini qaytaring. Agar uzunligi juft bo'lsa, o'rtadagi ikkita belgisini qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: s = "abcdf"
 Output: "c"
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
-Input: s = "cool
+Input: s = "cool"
 Output: "oo"
 ```
 
-**Constraints:**
-
+**Cheklovlar:**
   - 2 < len(s)
+
+---
 
 ## string_len09
 
-  Given two non-negative integers, num1 and num2 represented as string.
-  Return the sum of num1 and num2 as a string.
+Berilgan ikkita manfiy bo'lmagan butun son (satrlarda ko'rsatilgan) `num1` va `num2`. Ularning yig'indisini satr ko'rinishida qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: num1 = "12", num2 = "5"
 Output: "17"
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: num1 = "425", num2 = "81"
 Output: "506"
 ```
 
-**Constraints:**
+**Cheklovlar:**
   - 1 <= len(num1), len(num2) <= 10^4
+
+---
 
 ## string_len10
 
-  A string of length three is given. Check that it is a palindrome.
-  Return True if the palindrome is False otherwise.
+Uch belgidan iborat bo'lgan satr berilgan. Agar u palindrom bo'lsa, `True` qaytaring. Aks holda `False` qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: s = "cff"
 Output: False
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: s = "dcd"
 Output: True
-
 ```
 
-**Constraints:**
+**Cheklovlar:**
   - len(s) == 3
-  
-# Warning
-- don't copy other solutions or any solution
-- don't remove comments
+
+---
+
+# Ogohlantirish
+- Boshqalarning echimlarini nusxa ko'chirmang yoki ko'chirishdan foydalanmang.
+- Izohlarni o'chirib yubormang.
+
+Ushbu masalalarni yechishni boshlashingiz mumkin. Har birini alohida yechib, natijani tekshirib chiqing. Agar qo'shimcha savollar bo'lsa, murojaat qiling!
