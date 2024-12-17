@@ -7,4 +7,9 @@ def main(s1,s2):
     Returns:
         total length of strings
     """
-    return
+    x1=len(s1)
+    x2=len(s2)
+    return x1+x2
+s1='asdfg'
+s2='qwert'
+print(main(s1,s2))

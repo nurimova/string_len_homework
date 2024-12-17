@@ -8,4 +8,12 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=len(s)-1
+    if a%2!=0:
+        
+        return s[a//2]
+    else:
+        
+        return s[a//2] and s[a//2-1]
+s='asdfgh'
+print(main(s))

@@ -6,4 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    return
+    return len(a)
+a='1234dfgh'
+print(main(a))
